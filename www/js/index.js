@@ -34,6 +34,7 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        window.location.href = "http://192.168.1.2:3000";
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
